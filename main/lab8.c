@@ -23,12 +23,9 @@ void app_main(void)
         reading_count++;
         ESP_LOGI(TAG, "📋 Reading #%d", reading_count);
 
-        // ❌ ไม่ assign เพราะ sensor_read_data() เป็น void
-        sensor_read_data();     // แสดงค่าใน ESP_LOGI ของ sensor.c
+        sensor_read_data();     
         sensor_check_status();
 
-        // ❌ ถ้าอยากเปิด/ปิด LED ต้องตั้งค่าคงที่ หรือกำหนด logic แยก
-        // ตัวอย่างใช้ random แทน temperature
         int fake_value = rand() % 100;
 
         if (fake_value > 50) {
