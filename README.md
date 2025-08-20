@@ -1,6 +1,7 @@
 # Lab-08-teamwork-dev-for-esp32 
 ## Result
 <img width="1916" height="1077" alt="image" src="https://github.com/user-attachments/assets/e453ab72-34fb-473d-b8b7-b110740d2622" />
+
 ```c
 Executing action: monitor
 Running idf_monitor in directory /project
