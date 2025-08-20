@@ -1,0 +1,7 @@
+dependencies:
+  sensor:
+    git: https://github.com/PetchAuisui/Lab08-component.git
+  display:
+    git: https://github.com/Paphattssorn/Lab08-component.git
+  led:
+    git: https://github.com/thepthut/Lab08-component.git
